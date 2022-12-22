@@ -1,7 +1,7 @@
 varversion: '3.7'
 services:
   apache:
-    image: aluisio/webserver
+    image: aluisio23/webserver
     container_name: my-apache-app
     ports:
     - '80:80'
